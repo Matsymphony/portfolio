@@ -1,0 +1,76 @@
+/* === HEADER === */
+
+header {
+    background-color: #242424;
+    color: white;
+    padding: 37px 120px 0;
+    text-align: left;
+    height: 463px; 
+  
+  }
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1920px;
+    margin: 0 auto;
+  }
+  #main-upper-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 100px auto;
+    width: 100%;
+  }
+  .title-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+  }
+  #main-upper-title h1 {
+    font-family: 'League Gothic', sans-serif;
+    font-size: 96px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin: 0;
+  }
+  #main-upper-title h2 {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    color: #FFFFFF;
+    letter-spacing: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .nav-list-header {
+    display: flex;
+    gap: 30px;
+    position: relative;
+    top: 0;
+  }
+  .nav-link {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+  }
+  .nav-link.active {
+    color: #0091ff; 
+    font-weight: bold;
+  }
+  #logoHeader {
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+  }
+  #logoHeaderPart1 {
+    color: #0091ff;
+  }
+  #logoHeaderPart2 {
+    color: #ADB6C4;
+  }
