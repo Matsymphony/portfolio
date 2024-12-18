@@ -1,0 +1,271 @@
+/* === MEDIA QUERIES === */
+
+@media (max-width: 930px){
+    .header-container {
+      flex-direction: column; 
+      padding: px;
+    }
+    .home-content{
+      padding: 84px 20px ;
+    }
+    #main-upper-title{
+      margin: 81px auto;
+    }
+    .skill-card{
+      max-width: 100%;
+    }
+    }
+@media (max-width: 768px) {
+  body {
+      display: block;
+      min-height: 100vh;
+    }
+    header{
+      padding: 0px 10px;
+      height: 500px;
+    }
+    footer{
+      margin-top: auto;
+      padding: 60px 10px 60px;
+      width: auto;
+    }
+    main {
+      padding: 0 10px;
+    }
+    
+    /* -=== HEADER === */
+    
+    #main-upper-title{
+      margin: 100px auto;
+      }
+    .nav-list-header.active {
+      display: flex; 
+      flex-direction: column;
+      position: absolute;
+      left: 0;
+      width: 100%;
+      background-color: #242424;
+      margin-top: 90px;
+      padding-top: 28px;
+      padding-bottom: 28px;
+      text-align: left;
+      border-top: 1px solid #ffffff;
+      box-shadow: 0px 5px 7px rgba(255, 255, 255, 0.2);
+    }
+    .nav-list-header.active li{
+      margin: 0 0 0 37px;
+    }
+    .nav-list-header {
+      display: none; 
+    }
+    .nav-list-header a {
+      color: #FFFFFF;
+      text-decoration: none;
+      padding: 0px 0;
+      font-size: 16px;
+    }
+    .header-container{
+      box-sizing: border-box;
+    }
+    .title-container{
+      width: 100%;
+    }
+    .hamburger-menu {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      cursor: pointer;
+      position: absolute;
+      top: 20px;
+      right: 10px;
+    }
+    .hamburger-menu span {
+      display: block;
+      width: 30px;
+      height: 3px;
+      background-color: #FFFFFF;
+      border-radius: 2px;
+      transition: background-color 0.3s ease-in-out;
+    }
+    .hamburger-menu.clicked span {
+      background-color: #0091ff;
+    }
+    #logoHeaderPart1 {
+      position: absolute;
+      left: 10px;
+      top: 15px;
+      font-size: 36px;
+      font-weight: 700;
+    }
+    #logoHeaderPart2 {
+      display: none;
+    }
+    #main-upper-title h2 {
+      margin-top: 0px;
+    }
+    
+    /* === MAIN === */
+    /* home */
+    
+    .home-content{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      width: 100%;
+      box-sizing: border-box;
+      padding: 84px 5px 84px;
+    }
+    .skills-section{
+      padding: 0px;
+      margin: 0;
+    }
+    .about-section img {
+      margin: 0 0 65px 0;
+      content: url('/assets/images/portfolioimgsmall.png');
+    }
+    .skills-container {
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+    .skills-section h2{
+      margin:40px 0 32px;
+    }
+    .project-wrapper{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 0px;
+      margin: 0px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    .project-card{
+      width: 300px;
+      flex: none;
+      align-items: flex-start;
+    }
+    .skill-card{
+    justify-content: center;
+    }
+    
+    /* projects */
+    
+    .projects-section{
+      display: flex;
+      flex-direction: column;
+      padding: 0px;
+      margin: 0px;
+    }
+    .project-container{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      margin: 0px;
+      padding: 84px 0px 0px;
+    }
+    .add-project-button{
+      margin-top: 0px;
+      margin-bottom: 0px;
+     }
+     .modal-content {
+      width: 85%;
+      max-width: 400px;
+      padding: 16px;
+    }
+    .modal-content h3 {
+      text-align: left;
+      padding-top: 40px;
+    }
+    .modal-content input {
+      margin-bottom: 0px;
+      font-size: 16px;
+      padding: 0px;
+    }
+    .close-button {
+      font-size: 30px;
+    }
+    .modal-content button{
+      margin-bottom: 24px;
+    }
+    
+    /* about */
+    
+    .about-paragraph{
+      align-self: start;
+      text-align: start;
+    }
+    .about-section{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 0px;
+      margin: 0px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    .about-content{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      width: 100%;
+      box-sizing: border-box;
+      padding: 84px 5px 84px;
+    }
+    .portfolio Image{
+      margin-bottom: 65px;
+      width: 100%;
+      content: url('/assets/images/portfolioimgsmall.png');
+    }
+    
+    /* contact */
+    
+    .contact-content{
+      padding: 84px 0;
+      gap: 30px;
+    }
+    .contact-form {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+    }
+    .contact-form label {
+      text-align: left;
+      margin-bottom: 27px;
+    }
+    .contact-form .form-input{
+      padding: 0px;
+    }
+    
+    /* messages */
+    
+    .messages-list{
+      margin: 0;
+      padding: 5px;
+    }
+    
+    /* === FOOTER === */
+    
+    .footer-container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 0px;
+      margin: 0px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    .contact-info{
+      align-items: flex-start;
+      box-sizing: border-box;
+      margin-top:0px;
+      gap: 0px;
+    }
+    .nav-list-footer{
+      display: none;
+    }
+  }
